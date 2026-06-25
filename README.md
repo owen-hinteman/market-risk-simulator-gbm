@@ -18,7 +18,7 @@ The asset price $S_t$ is modeled using the classical Geometric Brownian Motion s
 $$S_t = S_{t-1} \times \exp\left( \left(\mu - \frac{1}{2}\sigma^2\right)dt + \sigma \sqrt{dt} \cdot Z_t \right)$$
 
 Where:
-* **$S_0$**: Initial stock price = $\$100$
+* **$S_0$**: Initial stock price = $\100
 * **$\mu$**: Expected annual return (drift) = $5\%$
 * **$\sigma$**: Annual volatility = $20\%$
 * **$dt$**: Time increment ($1 / 252$ trading days)
